@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-cobalt: #244287;
+    --color-amber: #efa642;
+    --color-terracotta: #6c1e17;
+    --color-linen: #dfd8cb;
+    --color-linen-light: #ece6dc;
+    --color-linen-dark: #d2c9b9;
+    --color-charcoal: #2e3137;
+    --color-charcoal-muted: #575c66;
+  }
+
+  body {
+    background-color: var(--color-linen);
+    color: var(--color-charcoal);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: clip;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Wavy background texture resembling the brand mark motif in image.png */
+.bg-wave-pattern {
+  background-image: radial-gradient(circle at 50% 50%, rgba(108, 30, 23, 0.03) 0%, transparent 60%),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 38px,
+      rgba(46, 49, 55, 0.035) 39px,
+      rgba(46, 49, 55, 0.035) 40px
+    );
+}
+
+.wave-contour-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg width='1200' height='300' viewBox='0 0 1200 300' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 60 C 200 120, 400 0, 600 60 C 800 120, 1000 0, 1200 60' stroke='%232e3137' stroke-opacity='0.04' stroke-width='1.5' fill='none'/%3E%3Cpath d='M0 140 C 200 200, 400 80, 600 140 C 800 200, 1000 80, 1200 140' stroke='%232e3137' stroke-opacity='0.04' stroke-width='1.5' fill='none'/%3E%3Cpath d='M0 220 C 200 280, 400 160, 600 220 C 800 280, 1000 160, 1200 220' stroke='%232e3137' stroke-opacity='0.04' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 800px 200px;
+}

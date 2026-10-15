@@ -1,0 +1,814 @@
+[
+  {
+    "id": 1307254269,
+    "oid": "gMiPZPAAuAb3FeBDUWNPXw",
+    "fullBleed": 1,
+    "caption": "",
+    "imageSizes": {
+      "size_disp": {
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/2eb4f0228295113.685097cc335e9.png",
+        "height": 338,
+        "width": 600
+      },
+      "size_disp_still": null,
+      "size_1400": {
+        "width": 1400,
+        "height": 788
+      },
+      "size_max_1200": {
+        "width": 1200,
+        "height": 675
+      },
+      "allAvailable": [
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/source/2eb4f0228295113.685097cc335e9.png",
+          "width": 1920,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632/2eb4f0228295113.685097cc335e9.png",
+          "width": 1124,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632_webp/2eb4f0228295113.685097cc335e9.png",
+          "width": 1124,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_316/2eb4f0228295113.685097cc335e9.png",
+          "width": 562,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_316_webp/2eb4f0228295113.685097cc335e9.png",
+          "width": 562,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_158/2eb4f0228295113.685097cc335e9.png",
+          "width": 281,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_158_webp/2eb4f0228295113.685097cc335e9.png",
+          "width": 281,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/2eb4f0228295113.685097cc335e9.png",
+          "width": 600,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp_webp/2eb4f0228295113.685097cc335e9.png",
+          "width": 600,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/2eb4f0228295113.685097cc335e9.png",
+          "width": 1240,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/2eb4f0228295113.685097cc335e9.png",
+          "width": 1240,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/2eb4f0228295113.685097cc335e9.png",
+          "width": 1920,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/2eb4f0228295113.685097cc335e9.png",
+          "width": 1920,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2eb4f0228295113.685097cc335e9.png",
+          "width": 1200,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/2eb4f0228295113.685097cc335e9.png",
+          "width": 1200,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/2eb4f0228295113.685097cc335e9.png",
+          "width": 1400,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/2eb4f0228295113.685097cc335e9.png",
+          "width": 1400,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/2eb4f0228295113.685097cc335e9.png",
+          "width": 1400,
+          "type": "OPT1"
+        }
+      ]
+    },
+    "width": 600,
+    "height": 338,
+    "hasCaiData": false,
+    "projectId": 228295113,
+    "src": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/2eb4f0228295113.685097cc335e9.png",
+    "exifData": {
+      "lens": null,
+      "software": null,
+      "makeAndModel": null,
+      "focalLength": null,
+      "iso": null,
+      "location": null,
+      "flash": null,
+      "exposureMode": null,
+      "shutterSpeed": null,
+      "aperture": null
+    },
+    "altText": "",
+    "threeDData": {
+      "iframeUrl": null
+    },
+    "captionAlignment": "left",
+    "__typename": "ImageModule"
+  },
+  {
+    "id": 1307254259,
+    "oid": "T2gJWVm3LHMz7pdmtQSVlA",
+    "fullBleed": 0,
+    "text": "<div><span style=\"color:#f9f9ea;\" class=\"texteditor-inline-color\"><span style=\"font-size:11px;\" class=\"texteditor-inline-fontsize\"><span style=\"font-size:12px;\" class=\"texteditor-inline-fontsize\">[PT]</span> </span><span class=\"texteditor-inline-fontsize\" style=\"font-size:18px;\"><span class=\"italic\"><span class=\"bold\">A cor do pecado</span></span> é uma reportagem visual que investiga a interferência da ancestralidade no processo de identificação racial no Brasil, analisando<span class=\"texteditor-inline-color\"> como </span>dados genéticos, os fatores socioeconômicos e as narrativas particulares se entrelaçam na construção da identidade de brasileiros autodeclarados pardos.</span></span></div><div><br></div><div><span class=\"texteditor-inline-color\" style=\"color:#f9f9ea;\"><span style=\"font-size:12px;\" class=\"texteditor-inline-fontsize\">[EN] </span></span><span class=\"texteditor-inline-fontsize\" style=\"font-size:18px;\"><span style=\"font-style:oblique 9deg;\"><span class=\"bold\"><span class=\"texteditor-inline-color\" style=\"color:#f9f9ea;\">The color of sin</span></span> </span><span style=\"color:#f9f9ea;\" class=\"texteditor-inline-color\">is a popular –yet problematic– Brazilian expression used to refer to mixed race people. This proj<span class=\"texteditor-inline-color\">ect</span> investigates how genetic data, socioeconomic factors, and personal narratives intertwine in the construction the \"pardo\" (mixed-race) identity and the growing influence of genetic ancestry in this self-identification process. </span></span></div>",
+    "alignment": "center",
+    "__typename": "TextModule"
+  },
+  {
+    "id": 1307254277,
+    "oid": "UIdK5MYZ_piQtJUZWV1l7A",
+    "fullBleed": 1,
+    "caption": "",
+    "imageSizes": {
+      "size_disp": {
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/1f83c6228295113.685097cc3558f.gif",
+        "height": 400,
+        "width": 600
+      },
+      "size_disp_still": {
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp_still/1f83c6228295113.685097cc3558f.gif"
+      },
+      "size_1400": {
+        "width": 1400,
+        "height": 933
+      },
+      "size_max_1200": {
+        "width": 1200,
+        "height": 800
+      },
+      "allAvailable": [
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/source/1f83c6228295113.685097cc3558f.gif",
+          "width": 4500,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632/1f83c6228295113.685097cc3558f.gif",
+          "width": 948,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632_webp/1f83c6228295113.685097cc3558f.gif",
+          "width": 948,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_316/1f83c6228295113.685097cc3558f.gif",
+          "width": 474,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_316_webp/1f83c6228295113.685097cc3558f.gif",
+          "width": 474,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_158/1f83c6228295113.685097cc3558f.gif",
+          "width": 237,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_158_webp/1f83c6228295113.685097cc3558f.gif",
+          "width": 237,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/632_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 948,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/316_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 474,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/158_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 237,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/1f83c6228295113.685097cc3558f.gif",
+          "width": 600,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp_webp/1f83c6228295113.685097cc3558f.gif",
+          "width": 600,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/1f83c6228295113.685097cc3558f.gif",
+          "width": 1240,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/1f83c6228295113.685097cc3558f.gif",
+          "width": 1240,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/1f83c6228295113.685097cc3558f.gif",
+          "width": 1920,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/1f83c6228295113.685097cc3558f.gif",
+          "width": 1920,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1f83c6228295113.685097cc3558f.gif",
+          "width": 1200,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/1f83c6228295113.685097cc3558f.gif",
+          "width": 1200,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/1f83c6228295113.685097cc3558f.gif",
+          "width": 1400,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/1f83c6228295113.685097cc3558f.gif",
+          "width": 1400,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/1f83c6228295113.685097cc3558f.gif",
+          "width": 1400,
+          "type": "OPT1"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/2800/1f83c6228295113.685097cc3558f.gif",
+          "width": 2800,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/1f83c6228295113.685097cc3558f.gif",
+          "width": 2800,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/1f83c6228295113.685097cc3558f.gif",
+          "width": 2800,
+          "type": "OPT1"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/1f83c6228295113.685097cc3558f.gif",
+          "width": 3840,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/1f83c6228295113.685097cc3558f.gif",
+          "width": 3840,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 600,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 1240,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 1920,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 1200,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 1400,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 1400,
+          "type": "OPT1"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 2800,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 2800,
+          "type": "OPT1"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_still/1f83c6228295113.685097cc3558f.gif",
+          "width": 3840,
+          "type": "JPG"
+        }
+      ]
+    },
+    "width": 600,
+    "height": 400,
+    "hasCaiData": false,
+    "projectId": 228295113,
+    "src": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/1f83c6228295113.685097cc3558f.gif",
+    "exifData": {
+      "lens": null,
+      "software": null,
+      "makeAndModel": null,
+      "focalLength": null,
+      "iso": null,
+      "location": null,
+      "flash": null,
+      "exposureMode": null,
+      "shutterSpeed": null,
+      "aperture": null
+    },
+    "altText": "",
+    "threeDData": {
+      "iframeUrl": null
+    },
+    "captionAlignment": "left",
+    "__typename": "ImageModule"
+  },
+  {
+    "id": 1307254261,
+    "oid": "x-XapMhy19A49ZUxHvZpeg",
+    "fullBleed": 0,
+    "text": "<div><span style=\"color:#f9f9ea;\" class=\"texteditor-inline-color\"><span style=\"font-size:11px;\" class=\"texteditor-inline-fontsize\"><span style=\"font-size:12px;\" class=\"texteditor-inline-fontsize\">[PT] </span></span><span class=\"texteditor-inline-fontsize\" style=\"font-size:18px;\">Foi adotada uma abordagem multidisciplinar que une a base de dados genéticos do projeto <span class=\"italic\"><span class=\"bold\">DNA do Brasil</span></span>, da USP, e os dados socioeconômicos do IBGE (Censo e Pnad). A partir desses dados, foi criada uma narrativa visual por meio de gráficos que mapeiam o panorama racial brasileiro. Essa análise de dados foi enriquecida com uma base teórica fundamentada em conceitos acadêmicos e entrevistas com especialistas na área.</span><br><br><span style=\"font-size:11px;\" class=\"texteditor-inline-fontsize\"><span style=\"font-size:12px;\" class=\"texteditor-inline-fontsize\">[EN] </span></span><span class=\"texteditor-inline-fontsize\" style=\"font-size:18px;\">The work was based in a multidisciplinary approach, combining the genetic database from University of São Paulo's <span class=\"bold\"><span class=\"italic\">DNA do Brasil </span></span>project and socioeconomic data from the IBGE (Brazilian Institute of Geography and Statistics). A visual narrative was created through graphics that explore the Brazilian racial reality. This data analysis was complemented by a theoretical foundation, grounded in academic concepts and interviews with experts in the field.</span></span></div><div><br></div>",
+    "alignment": "center",
+    "__typename": "TextModule"
+  },
+  {
+    "id": 1307254271,
+    "oid": "2hhQOqya28wvSmvddhTELw",
+    "fullBleed": 1,
+    "caption": "",
+    "imageSizes": {
+      "size_disp": {
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/9fdf41228295113.685097cc33daa.png",
+        "height": 338,
+        "width": 600
+      },
+      "size_disp_still": null,
+      "size_1400": {
+        "width": 1400,
+        "height": 788
+      },
+      "size_max_1200": {
+        "width": 1200,
+        "height": 675
+      },
+      "allAvailable": [
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/source/9fdf41228295113.685097cc33daa.png",
+          "width": 1920,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632/9fdf41228295113.685097cc33daa.png",
+          "width": 1124,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632_webp/9fdf41228295113.685097cc33daa.png",
+          "width": 1124,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_316/9fdf41228295113.685097cc33daa.png",
+          "width": 562,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_316_webp/9fdf41228295113.685097cc33daa.png",
+          "width": 562,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_158/9fdf41228295113.685097cc33daa.png",
+          "width": 281,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_158_webp/9fdf41228295113.685097cc33daa.png",
+          "width": 281,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/9fdf41228295113.685097cc33daa.png",
+          "width": 600,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp_webp/9fdf41228295113.685097cc33daa.png",
+          "width": 600,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/9fdf41228295113.685097cc33daa.png",
+          "width": 1240,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/9fdf41228295113.685097cc33daa.png",
+          "width": 1240,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/9fdf41228295113.685097cc33daa.png",
+          "width": 1920,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/9fdf41228295113.685097cc33daa.png",
+          "width": 1920,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9fdf41228295113.685097cc33daa.png",
+          "width": 1200,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/9fdf41228295113.685097cc33daa.png",
+          "width": 1200,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/9fdf41228295113.685097cc33daa.png",
+          "width": 1400,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/9fdf41228295113.685097cc33daa.png",
+          "width": 1400,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/9fdf41228295113.685097cc33daa.png",
+          "width": 1400,
+          "type": "OPT1"
+        }
+      ]
+    },
+    "width": 600,
+    "height": 338,
+    "hasCaiData": false,
+    "projectId": 228295113,
+    "src": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/9fdf41228295113.685097cc33daa.png",
+    "exifData": {
+      "lens": null,
+      "software": null,
+      "makeAndModel": null,
+      "focalLength": null,
+      "iso": null,
+      "location": null,
+      "flash": null,
+      "exposureMode": null,
+      "shutterSpeed": null,
+      "aperture": null
+    },
+    "altText": "",
+    "threeDData": {
+      "iframeUrl": null
+    },
+    "captionAlignment": "left",
+    "__typename": "ImageModule"
+  },
+  {
+    "id": 1307254275,
+    "oid": "9VsIcBqmTlEOgJub9THD0Q",
+    "fullBleed": 1,
+    "caption": "",
+    "imageSizes": {
+      "size_disp": {
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/35f94c228295113.685097cc34b6a.png",
+        "height": 338,
+        "width": 600
+      },
+      "size_disp_still": null,
+      "size_1400": {
+        "width": 1400,
+        "height": 788
+      },
+      "size_max_1200": {
+        "width": 1200,
+        "height": 675
+      },
+      "allAvailable": [
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/source/35f94c228295113.685097cc34b6a.png",
+          "width": 1920,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632/35f94c228295113.685097cc34b6a.png",
+          "width": 1124,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632_webp/35f94c228295113.685097cc34b6a.png",
+          "width": 1124,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_316/35f94c228295113.685097cc34b6a.png",
+          "width": 562,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_316_webp/35f94c228295113.685097cc34b6a.png",
+          "width": 562,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_158/35f94c228295113.685097cc34b6a.png",
+          "width": 281,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_158_webp/35f94c228295113.685097cc34b6a.png",
+          "width": 281,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/35f94c228295113.685097cc34b6a.png",
+          "width": 600,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp_webp/35f94c228295113.685097cc34b6a.png",
+          "width": 600,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/35f94c228295113.685097cc34b6a.png",
+          "width": 1240,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/35f94c228295113.685097cc34b6a.png",
+          "width": 1240,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/35f94c228295113.685097cc34b6a.png",
+          "width": 1920,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/35f94c228295113.685097cc34b6a.png",
+          "width": 1920,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/35f94c228295113.685097cc34b6a.png",
+          "width": 1200,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/35f94c228295113.685097cc34b6a.png",
+          "width": 1200,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/35f94c228295113.685097cc34b6a.png",
+          "width": 1400,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/35f94c228295113.685097cc34b6a.png",
+          "width": 1400,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/35f94c228295113.685097cc34b6a.png",
+          "width": 1400,
+          "type": "OPT1"
+        }
+      ]
+    },
+    "width": 600,
+    "height": 338,
+    "hasCaiData": false,
+    "projectId": 228295113,
+    "src": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/35f94c228295113.685097cc34b6a.png",
+    "exifData": {
+      "lens": null,
+      "software": null,
+      "makeAndModel": null,
+      "focalLength": null,
+      "iso": null,
+      "location": null,
+      "flash": null,
+      "exposureMode": null,
+      "shutterSpeed": null,
+      "aperture": null
+    },
+    "altText": "",
+    "threeDData": {
+      "iframeUrl": null
+    },
+    "captionAlignment": "left",
+    "__typename": "ImageModule"
+  },
+  {
+    "id": 1307254263,
+    "oid": "e-Y_dd5YC4qp1sh3ImWZvg",
+    "fullBleed": 0,
+    "text": "<div><span style=\"color:#f9f9ea;\" class=\"texteditor-inline-color\"><span style=\"font-size:11px;\" class=\"texteditor-inline-fontsize\"><span style=\"font-size:12px;\" class=\"texteditor-inline-fontsize\">[PT] </span></span><span class=\"texteditor-inline-fontsize\" style=\"font-size:18px;\">A essência do projeto está na conexão entre os dados e a experiência humana. São apresentadas as histórias de cinco brasileiros autodeclarados pardos, residentes em três regiões distintas do país. Cada um deles realizou testes de DNA e compartilha como a descoberta de suas ancestralidades africana, europeia e indígena impactou, reforçou ou desafiou a percepção sobre sua própria identidade, trazendo uma dimensão pessoal ao trabalho.</span><br><br><span style=\"font-size:11px;\" class=\"texteditor-inline-fontsize\"><span style=\"font-size:12px;\" class=\"texteditor-inline-fontsize\">[EN] </span></span><span class=\"texteditor-inline-fontsize\" style=\"font-size:18px;\">The main point of this project lies in the connection between data and human experience, by presenting the stories of five mixed-race Brazilians from three different regions. Each of them has taken a DNA ancestry test and shares how the discovery of their African, European, and Indigenous heritage impacted, reinforced, or challenged their own sense of identity, bringing a personal and sensitive dimension to the work.</span></span></div>",
+    "alignment": "center",
+    "__typename": "TextModule"
+  },
+  {
+    "id": 1307254273,
+    "oid": "PDi20apkWvrDWjg-Fq6tSw",
+    "fullBleed": 1,
+    "caption": "",
+    "imageSizes": {
+      "size_disp": {
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0f4d1e228295113.685097cc344f3.png",
+        "height": 338,
+        "width": 600
+      },
+      "size_disp_still": null,
+      "size_1400": {
+        "width": 1400,
+        "height": 788
+      },
+      "size_max_1200": {
+        "width": 1200,
+        "height": 675
+      },
+      "allAvailable": [
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/source/0f4d1e228295113.685097cc344f3.png",
+          "width": 1920,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632/0f4d1e228295113.685097cc344f3.png",
+          "width": 1124,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_632_webp/0f4d1e228295113.685097cc344f3.png",
+          "width": 1124,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_316/0f4d1e228295113.685097cc344f3.png",
+          "width": 562,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_316_webp/0f4d1e228295113.685097cc344f3.png",
+          "width": 562,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_158/0f4d1e228295113.685097cc344f3.png",
+          "width": 281,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_158_webp/0f4d1e228295113.685097cc344f3.png",
+          "width": 281,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0f4d1e228295113.685097cc344f3.png",
+          "width": 600,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp_webp/0f4d1e228295113.685097cc344f3.png",
+          "width": 600,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/0f4d1e228295113.685097cc344f3.png",
+          "width": 1240,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/0f4d1e228295113.685097cc344f3.png",
+          "width": 1240,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/0f4d1e228295113.685097cc344f3.png",
+          "width": 1920,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/0f4d1e228295113.685097cc344f3.png",
+          "width": 1920,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0f4d1e228295113.685097cc344f3.png",
+          "width": 1200,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/0f4d1e228295113.685097cc344f3.png",
+          "width": 1200,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/0f4d1e228295113.685097cc344f3.png",
+          "width": 1400,
+          "type": "JPG"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/0f4d1e228295113.685097cc344f3.png",
+          "width": 1400,
+          "type": "WEBP"
+        },
+        {
+          "url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/0f4d1e228295113.685097cc344f3.png",
+          "width": 1400,
+          "type": "OPT1"
+        }
+      ]
+    },
+    "width": 600,
+    "height": 338,
+    "hasCaiData": false,
+    "projectId": 228295113,
+    "src": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/0f4d1e228295113.685097cc344f3.png",
+    "exifData": {
+      "lens": null,
+      "software": null,
+      "makeAndModel": null,
+      "focalLength": null,
+      "iso": null,
+      "location": null,
+      "flash": null,
+      "exposureMode": null,
+      "shutterSpeed": null,
+      "aperture": null
+    },
+    "altText": "Image may contain: cartoon, human face and poster",
+    "threeDData": {
+      "iframeUrl": null
+    },
+    "captionAlignment": "left",
+    "__typename": "ImageModule"
+  },
+  {
+    "id": 1307254265,
+    "oid": "0c2qe3ZZyp89ZfmHjxlXfA",
+    "fullBleed": 0,
+    "text": "<div style=\"font-size:28px;text-align:center;\"><span class=\"texteditor-inline-color\" style=\"color:#f9f9ea;\"><a href=\"http://bit.ly/a-cor-do-pecado\" target=\"_blank\" rel=\"nofollow\"><span class=\"texteditor-inline-fontsize\" style=\"font-size:28px;\"><span class=\"bold\">bit.ly/a-cor-do-pecado</span></span></a></span></div>",
+    "alignment": "center",
+    "__typename": "TextModule"
+  },
+  {
+    "id": 1307254267,
+    "oid": "_8-A3L_fkT7QifPFphfkIQ",
+    "fullBleed": 0,
+    "text": "<div><span style=\"color:#f9f9ea;\" class=\"texteditor-inline-color\"><span style=\"font-size:11px;\" class=\"texteditor-inline-fontsize\"><span style=\"font-size:12px;\" class=\"texteditor-inline-fontsize\">[PT] </span></span><span class=\"texteditor-inline-fontsize\" style=\"font-size:18px;\">Este trabalho foi apresentado como Trabalho de Conclusão de Curso (TCC) no curso de Jornalismo da <span class=\"bold\">ECA-USP</span> (Escola de Comunicações e Artes da Universidade de São Paulo), avaliado e aprovado pela banca examinadora em Julho de 2023.</span><br><br><span style=\"font-size:11px;\" class=\"texteditor-inline-fontsize\"><span style=\"font-size:12px;\" class=\"texteditor-inline-fontsize\">[EN] </span></span><span class=\"texteditor-inline-fontsize\" style=\"font-size:18px;\">This work was approved as the final thesis for the Bacharel Degree in Journalism in the University of São Paulo, in July, 2023.</span></span><br></div>",
+    "alignment": "center",
+    "__typename": "TextModule"
+  }
+]
