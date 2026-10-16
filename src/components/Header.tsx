@@ -5,10 +5,9 @@ interface HeaderProps {
   onContactClick: () => void;
   onProjectsClick: () => void;
   onHomeClick?: () => void;
-  onAboutClick?: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({ onContactClick, onProjectsClick, onHomeClick, onAboutClick }) => {
+export const Header: React.FC<HeaderProps> = ({ onContactClick, onProjectsClick, onHomeClick }) => {
   return (
     <header className="fixed top-0 left-0 right-0 z-[200] bg-[#e5e0d6]/95 backdrop-blur-md h-16 transition-colors border-b border-[#2e3137]/10">
       <div className="max-w-5xl mx-auto px-6 h-full flex items-center justify-between gap-6">
@@ -32,14 +31,14 @@ export const Header: React.FC<HeaderProps> = ({ onContactClick, onProjectsClick,
             />
           </div>
 
-          {/* Reduced "gabi" by 20% as requested (from 20px/24px to 16px/19.2px) */}
+          {/* "gabi" text styling */}
           <span className="text-[16px] sm:text-[19.2px] font-bold tracking-tight text-[#6c1e17] lowercase">
             gabi
           </span>
         </a>
 
         {/* Minimalist Navigation Actions: NO background, NO border, ONLY text & icon underlined */}
-        <nav className="flex items-center gap-5 sm:gap-7 text-xs sm:text-sm font-medium text-[#2e3137]">
+        <nav className="flex items-center gap-6 sm:gap-8 text-xs sm:text-sm font-medium text-[#2e3137]">
           <button
             onClick={onProjectsClick}
             className="inline-flex items-center gap-1 text-[#2e3137] underline underline-offset-4 decoration-1 hover:text-[#6c1e17] transition-colors cursor-pointer"
@@ -47,16 +46,7 @@ export const Header: React.FC<HeaderProps> = ({ onContactClick, onProjectsClick,
             <span>projects</span>
           </button>
 
-          {onAboutClick && (
-            <button
-              onClick={onAboutClick}
-              className="inline-flex items-center gap-1 text-[#2e3137] underline underline-offset-4 decoration-1 hover:text-[#6c1e17] transition-colors cursor-pointer"
-            >
-              <span>about</span>
-            </button>
-          )}
-
-          {/* Contact link in wine (#6c1e17) as requested */}
+          {/* Contact link in wine (#6c1e17) */}
           <button
             onClick={onContactClick}
             className="inline-flex items-center gap-1.5 text-[#6c1e17] underline underline-offset-4 decoration-1 hover:text-[#4d130e] transition-colors cursor-pointer"
