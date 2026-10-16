@@ -11,7 +11,7 @@ export const Hero: React.FC<HeroProps> = ({ onProjectsClick, onContactClick }) =
   return (
     <section
       id="top"
-      className="pt-64 pb-8 sm:pt-32 sm:pb-6 md:pt-[122px] md:pb-10 text-left sm:text-center"
+      className="pt-28 pb-8 sm:pt-32 sm:pb-6 md:pt-[122px] md:pb-10 text-left sm:text-center"
     >
       <div className="max-w-2xl sm:mx-auto md:max-w-[650px] px-6 w-full">
         {/* Full Official Logo - Left aligned on mobile, centered on desktop (-15% on desktop: from 86px to 73px) */}
