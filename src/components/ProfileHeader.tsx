@@ -7,7 +7,7 @@ interface ProfileHeaderProps {
 
 export const ProfileHeader: React.FC<ProfileHeaderProps> = ({ onContactClick }) => {
   return (
-    <header className="border-b border-[#2e3137]/15 py-8 sm:py-12 bg-[#dfd8cb]">
+    <header className="border-b border-[#2e3137]/15 py-8 sm:py-12 bg-[#e5e0d6]">
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-10 text-center sm:text-left">
           {/* Instagram-style Profile Avatar with official logo.png */}

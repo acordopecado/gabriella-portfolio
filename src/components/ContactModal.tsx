@@ -26,7 +26,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
       aria-modal="true"
     >
       <div
-        className="bg-[#dfd8cb] border border-[#2e3137]/20 rounded-2xl max-w-md w-full p-6 sm:p-7 shadow-2xl relative text-[#2e3137]"
+        className="bg-[#e5e0d6] border border-[#2e3137]/20 rounded-2xl max-w-md w-full p-6 sm:p-7 shadow-2xl relative text-[#2e3137]"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Minimalist Close Link */}

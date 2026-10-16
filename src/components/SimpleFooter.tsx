@@ -3,7 +3,7 @@ import { ExternalLink, Mail } from 'lucide-react';
 
 export const SimpleFooter: React.FC = () => {
   return (
-    <footer className="py-10 bg-[#dfd8cb] text-[#2e3137]/70 text-xs">
+    <footer className="py-10 bg-[#e5e0d6] text-[#2e3137]/70 text-xs">
       <div className="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
         <div className="flex items-center gap-2.5">
           <div className="h-3.5 w-14 overflow-hidden flex items-start">

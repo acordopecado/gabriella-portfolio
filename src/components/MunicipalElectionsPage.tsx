@@ -11,7 +11,7 @@ interface MunicipalElectionsPageProps {
  * Section with an image that appears completely alone first.
  * As the user scrolls:
  * 1. Image appears alone.
- * 2. Solid overlay (#dfd8cb) rises up to 90% opacity.
+ * 2. Solid overlay (#e5e0d6) rises up to 90% opacity.
  * 3. Text enters via scroll.
  * 4. As user continues scrolling, the text exits alone via scroll (scrolling up and out).
  * 5. The next photo then enters swiftly with agility.
@@ -109,7 +109,7 @@ const ElectionsTextSection: React.FC<TextSectionProps> = ({
       {/* DESKTOP LAYOUT (md: and above) - 100% UNCHANGED           */}
       {/* Full-bleed image + 95% solid overlay + centered text      */}
       {/* ========================================================= */}
-      <div className="hidden md:block sticky top-0 h-screen h-[100dvh] w-full overflow-hidden bg-[#dfd8cb]">
+      <div className="hidden md:block sticky top-0 h-screen h-[100dvh] w-full overflow-hidden bg-[#e5e0d6]">
         <div className="absolute inset-0 w-full h-full">
           <img
             src={imageSrc}
@@ -118,9 +118,9 @@ const ElectionsTextSection: React.FC<TextSectionProps> = ({
             loading="eager"
           />
 
-          {/* Solid overlay in site background color (#dfd8cb) at 95% opacity */}
+          {/* Solid overlay in site background color (#e5e0d6) at 95% opacity */}
           <div
-            className="absolute inset-0 bg-[#dfd8cb] pointer-events-none transition-opacity duration-75"
+            className="absolute inset-0 bg-[#e5e0d6] pointer-events-none transition-opacity duration-75"
             style={{ opacity: overlayOpacity }}
           />
 
@@ -152,7 +152,7 @@ const ElectionsTextSection: React.FC<TextSectionProps> = ({
       {/* Scrolls naturally: when text exits with scroll, it pushes  */}
       {/* the image and background up, pulling next image along!     */}
       {/* ========================================================= */}
-      <div className="md:hidden w-full bg-[#dfd8cb] flex flex-col py-6 sm:py-8">
+      <div className="md:hidden w-full bg-[#e5e0d6] flex flex-col py-6 sm:py-8">
         {/* Top area: Image displayed whole, not cropped or covered by text */}
         <div className="w-full px-4 sm:px-6 flex items-center justify-center">
           <img
@@ -204,7 +204,7 @@ const ElectionsImageSection: React.FC<ImageSectionProps> = ({
       style={{ zIndex }}
     >
       {/* DESKTOP LAYOUT (md: and above) - 100% UNCHANGED */}
-      <div className="hidden md:flex w-full overflow-hidden bg-[#dfd8cb] items-center justify-center sticky top-0 h-screen h-[100dvh]">
+      <div className="hidden md:flex w-full overflow-hidden bg-[#e5e0d6] items-center justify-center sticky top-0 h-screen h-[100dvh]">
         <img
           src={imageSrc}
           alt=""
@@ -214,7 +214,7 @@ const ElectionsImageSection: React.FC<ImageSectionProps> = ({
       </div>
 
       {/* MOBILE LAYOUT (< md) */}
-      <div className="md:hidden w-full flex items-center justify-center px-4 sm:px-6 bg-[#dfd8cb]">
+      <div className="md:hidden w-full flex items-center justify-center px-4 sm:px-6 bg-[#e5e0d6]">
         <img
           src={imageSrc}
           alt=""
@@ -247,7 +247,7 @@ export const MunicipalElectionsPage: React.FC<MunicipalElectionsPageProps> = ({
   }, [onBack]);
 
   return (
-    <article className="relative w-full bg-[#dfd8cb] text-[#2e3137] selection:bg-[#244287] selection:text-white pt-16 md:pt-0">
+    <article className="relative w-full bg-[#e5e0d6] text-[#2e3137] selection:bg-[#244287] selection:text-white pt-16 md:pt-0">
       {/* ─────────────────────────────────────────────────────────────
           SECTION 1: Cover / Hero GIF + Challenge Text
           Text verbatim from Behance:
@@ -319,7 +319,7 @@ export const MunicipalElectionsPage: React.FC<MunicipalElectionsPageProps> = ({
           RODAPÉ: Créditos com tipografia em bold e vinho, 'by' em font-mono
          ───────────────────────────────────────────────────────────── */}
       <section
-        className="relative w-full min-h-[45vh] bg-[#dfd8cb] border-t border-[#2e3137]/15 py-20 sm:py-28 px-6 flex flex-col justify-center items-center"
+        className="relative w-full min-h-[45vh] bg-[#e5e0d6] border-t border-[#2e3137]/15 py-20 sm:py-28 px-6 flex flex-col justify-center items-center"
         style={{ zIndex: 110 }}
       >
         <div className="w-full max-w-xl mx-auto space-y-8 text-left">

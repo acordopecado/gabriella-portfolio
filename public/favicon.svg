@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Sun: Amber/Orange circle -->
+  <circle cx="50" cy="27" r="17" fill="#efa642" />
+  <!-- Bowl / Wave: Cobalt Blue -->
+  <path d="M 4 54 C 4 75, 20 84, 50 84 C 80 84, 96 75, 96 54 Z" fill="#244287" />
+</svg>

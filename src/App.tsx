@@ -79,7 +79,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#dfd8cb] text-[#2e3137] font-sans antialiased selection:bg-[#244287] selection:text-white flex flex-col justify-between">
+    <div className="min-h-screen bg-[#e5e0d6] text-[#2e3137] font-sans antialiased selection:bg-[#244287] selection:text-white flex flex-col justify-between">
       {/* Fixed Header across all pages */}
       <Header
         onContactClick={() => setIsContactOpen(true)}

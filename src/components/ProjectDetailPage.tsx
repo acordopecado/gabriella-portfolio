@@ -75,7 +75,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
   }
 
   return (
-    <article className="min-h-screen bg-[#dfd8cb] text-[#2e3137] pb-20 animate-in fade-in duration-300">
+    <article className="min-h-screen bg-[#e5e0d6] text-[#2e3137] pb-20 animate-in fade-in duration-300">
       {/* Top Navigation */}
       <div className="max-w-4xl mx-auto px-6 pt-6 sm:pt-8 pb-4 flex items-center justify-between gap-4">
         <button
@@ -114,7 +114,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
 
       {/* Featured High-Res Visual */}
       <div className="max-w-4xl mx-auto px-6 space-y-8">
-        <div className="overflow-hidden rounded-[5px] md:rounded-[10px] border border-[#2e3137]/15 bg-[#dfd8cb] shadow-xs">
+        <div className="overflow-hidden rounded-[5px] md:rounded-[10px] border border-[#2e3137]/15 bg-[#e5e0d6] shadow-xs">
           <img
             src={project.imageUrl}
             alt={project.title}

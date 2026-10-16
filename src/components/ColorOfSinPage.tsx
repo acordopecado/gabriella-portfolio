@@ -18,7 +18,7 @@ interface TextSectionProps {
  * Scrollytelling Section for "The color of sin"
  * DESKTOP:
  * 1. Image appears alone first without text.
- * 2. As scroll progresses, solid 95% opacity overlay appears in site background color (#dfd8cb).
+ * 2. As scroll progresses, solid 95% opacity overlay appears in site background color (#e5e0d6).
  * 3. Text enters alone sliding up, left-aligned.
  * 4. Text exits alone sliding upward, then next slide smoothly enters with agility.
  *
@@ -119,7 +119,7 @@ const ColorOfSinTextSection: React.FC<TextSectionProps> = ({
       style={{ zIndex }}
     >
       {/* DESKTOP LAYOUT (md: and above) - SCROLLYTELLING */}
-      <div className="hidden md:flex w-full sticky top-0 h-screen h-[100dvh] overflow-hidden bg-[#dfd8cb] items-center justify-center">
+      <div className="hidden md:flex w-full sticky top-0 h-screen h-[100dvh] overflow-hidden bg-[#e5e0d6] items-center justify-center">
         {/* Fullscreen background image */}
         <img
           src={imageSrc}
@@ -128,9 +128,9 @@ const ColorOfSinTextSection: React.FC<TextSectionProps> = ({
           loading="eager"
         />
 
-        {/* Solid site background color overlay at 95% opacity (#dfd8cb) */}
+        {/* Solid site background color overlay at 95% opacity (#e5e0d6) */}
         <div
-          className="absolute inset-0 bg-[#dfd8cb] pointer-events-none transition-opacity duration-300"
+          className="absolute inset-0 bg-[#e5e0d6] pointer-events-none transition-opacity duration-300"
           style={{ opacity: bgOpacity }}
         />
 
@@ -151,7 +151,7 @@ const ColorOfSinTextSection: React.FC<TextSectionProps> = ({
       </div>
 
       {/* MOBILE LAYOUT (< md) - Flow where text pushes previous image and background */}
-      <div className="md:hidden relative w-full bg-[#dfd8cb] px-4 sm:px-6 py-4 flex flex-col items-center">
+      <div className="md:hidden relative w-full bg-[#e5e0d6] px-4 sm:px-6 py-4 flex flex-col items-center">
         {/* Mobile image: fully visible without cropping */}
         <div className="w-full flex items-center justify-center">
           <img
@@ -198,7 +198,7 @@ const ColorOfSinImageSection: React.FC<ImageSectionProps> = ({
       style={{ zIndex }}
     >
       {/* DESKTOP LAYOUT (md: and above) - 100% UNCHANGED */}
-      <div className="hidden md:flex w-full overflow-hidden bg-[#dfd8cb] items-center justify-center sticky top-0 h-screen h-[100dvh]">
+      <div className="hidden md:flex w-full overflow-hidden bg-[#e5e0d6] items-center justify-center sticky top-0 h-screen h-[100dvh]">
         <img
           src={imageSrc}
           alt=""
@@ -208,7 +208,7 @@ const ColorOfSinImageSection: React.FC<ImageSectionProps> = ({
       </div>
 
       {/* MOBILE LAYOUT (< md) */}
-      <div className="md:hidden w-full flex items-center justify-center px-4 sm:px-6 bg-[#dfd8cb]">
+      <div className="md:hidden w-full flex items-center justify-center px-4 sm:px-6 bg-[#e5e0d6]">
         <img
           src={imageSrc}
           alt=""
@@ -241,7 +241,7 @@ export const ColorOfSinPage: React.FC<ColorOfSinPageProps> = ({
   }, [onBack]);
 
   return (
-    <article className="relative w-full bg-[#dfd8cb] text-[#2e3137] selection:bg-[#244287] selection:text-white pt-16 md:pt-0">
+    <article className="relative w-full bg-[#e5e0d6] text-[#2e3137] selection:bg-[#244287] selection:text-white pt-16 md:pt-0">
       {/* ─────────────────────────────────────────────────────────────
           SECTION 1: Cover Image + Project Introduction Text
          ───────────────────────────────────────────────────────────── */}
@@ -291,7 +291,7 @@ export const ColorOfSinPage: React.FC<ColorOfSinPageProps> = ({
           SECTION 6: Interactive Link & Academic Thesis Note (ECA-USP)
          ───────────────────────────────────────────────────────────── */}
       <section
-        className="relative w-full bg-[#dfd8cb] py-16 sm:py-20 md:py-24 px-6 border-t border-[#2e3137]/15 flex flex-col items-center justify-center"
+        className="relative w-full bg-[#e5e0d6] py-16 sm:py-20 md:py-24 px-6 border-t border-[#2e3137]/15 flex flex-col items-center justify-center"
         style={{ zIndex: 60 }}
       >
         <div className="w-full max-w-2xl mx-auto space-y-8 text-left">
@@ -321,7 +321,7 @@ export const ColorOfSinPage: React.FC<ColorOfSinPageProps> = ({
           RODAPÉ: Créditos com tipografia em bold e vinho, 'by' em font-mono
          ───────────────────────────────────────────────────────────── */}
       <section
-        className="relative w-full min-h-[45vh] bg-[#dfd8cb] border-t border-[#2e3137]/15 py-20 sm:py-28 px-6 flex flex-col justify-center items-center"
+        className="relative w-full min-h-[45vh] bg-[#e5e0d6] border-t border-[#2e3137]/15 py-20 sm:py-28 px-6 flex flex-col justify-center items-center"
         style={{ zIndex: 70 }}
       >
         <div className="w-full max-w-xl mx-auto space-y-8 text-left">

@@ -71,7 +71,7 @@ export const DesignTypewriter: React.FC = () => {
   }, [displayedPrefix, isDeleting, wordIndex, isFinalStage]);
 
   return (
-    <div className="h-6 sm:h-7 md:h-9 flex items-center justify-start sm:justify-center select-none overflow-hidden">
+    <div className="h-6 sm:h-7 md:h-[31px] flex items-center justify-start sm:justify-center select-none overflow-hidden">
       <div className="inline-flex items-center justify-start sm:justify-center transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)]">
         {/* Animated Prefix container with smooth width collapse */}
         <div
@@ -82,13 +82,13 @@ export const DesignTypewriter: React.FC = () => {
             marginRight: isFinalStage ? '0px' : '8px',
           }}
         >
-          <span className="font-serif italic text-sm sm:text-lg md:text-2xl text-[#2e3137]/90 leading-none">
+          <span className="font-serif italic text-sm sm:text-lg md:text-[20px] text-[#2e3137]/90 leading-none">
             {displayedPrefix}
           </span>
           {/* Typographic blinking cursor bar - aligned with text baseline */}
           {!isFinalStage && (
             <span
-              className="inline-block w-[1.5px] md:w-[2px] h-[1.15em] bg-[#6c1e17] ml-1 md:ml-1.5 align-middle transition-opacity animate-pulse shrink-0"
+              className="inline-block w-[1.5px] md:w-[1.7px] h-[1.15em] bg-[#6c1e17] ml-1 md:ml-1.5 align-middle transition-opacity animate-pulse shrink-0"
               style={{ verticalAlign: '-0.15em' }}
             />
           )}
@@ -96,7 +96,7 @@ export const DesignTypewriter: React.FC = () => {
 
         {/* The Anchor Word "design" with silky smooth translation */}
         <span
-          className="text-sm sm:text-lg md:text-2xl font-bold text-[#6c1e17] lowercase leading-none shrink-0 transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)]"
+          className="text-sm sm:text-lg md:text-[20px] font-bold text-[#6c1e17] lowercase leading-none shrink-0 transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)]"
         >
           design
         </span>
@@ -111,8 +111,8 @@ export const DesignTypewriter: React.FC = () => {
             marginLeft: isFinalStage && showTagline ? '8px' : '0px',
           }}
         >
-          <span className="text-[#6c1e17] font-bold mr-1.5 sm:mr-2 md:mr-2.5 text-xs sm:text-sm md:text-base">·</span>
-          <span className="text-xs sm:text-base md:text-2xl font-normal text-[#2e3137]/90 tracking-tight lowercase leading-none">
+          <span className="text-[#6c1e17] font-bold mr-1.5 sm:mr-2 md:mr-2 text-xs sm:text-sm md:text-sm">·</span>
+          <span className="text-xs sm:text-base md:text-[20px] font-normal text-[#2e3137]/90 tracking-tight lowercase leading-none">
             i make information look interesting
           </span>
         </div>

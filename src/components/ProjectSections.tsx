@@ -37,7 +37,7 @@ export const ProjectSections: React.FC<ProjectSectionsProps> = ({ onSelectProjec
               title={`View ${project.title} (${project.year})`}
             >
               {/* Rounded image: 5px on mobile, 10px on desktop */}
-              <div className="relative aspect-16/10 w-full overflow-hidden rounded-[5px] md:rounded-[10px] border border-[#2e3137]/15 bg-[#dfd8cb]">
+              <div className="relative aspect-16/10 w-full overflow-hidden rounded-[5px] md:rounded-[10px] border border-[#2e3137]/15 bg-[#e5e0d6]">
                 <img
                   src={project.imageUrl}
                   alt={project.title}
@@ -106,7 +106,7 @@ export const ProjectSections: React.FC<ProjectSectionsProps> = ({ onSelectProjec
               title={`View ${project.title} (${project.year})`}
             >
               {/* Rounded image: 5px on mobile, 10px on desktop */}
-              <div className="relative aspect-16/10 w-full overflow-hidden rounded-[5px] md:rounded-[10px] border border-[#2e3137]/15 bg-[#dfd8cb]">
+              <div className="relative aspect-16/10 w-full overflow-hidden rounded-[5px] md:rounded-[10px] border border-[#2e3137]/15 bg-[#e5e0d6]">
                 <img
                   src={project.imageUrl}
                   alt={project.title}

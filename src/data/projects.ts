@@ -13,6 +13,17 @@ export interface Project {
 
 export const EDITORIAL_PROJECTS: Project[] = [
   {
+    id: 'eleicoes-2026-1o-turno',
+    slug: '2026-election-results-in-charts',
+    title: 'Key 1st round results of the 2026 elections in charts',
+    year: '2026',
+    behanceUrl: 'https://www.jota.info/eleicoes/eleicoes-2026/os-principais-resultados-do-1o-turno-em-graficos',
+    externalUrl: 'https://www.jota.info/eleicoes/eleicoes-2026/os-principais-resultados-do-1o-turno-em-graficos',
+    imageUrl: 'https://images.jota.info/wp-content/uploads/2026/10/thumb-geral-governos-1.png',
+    localImageUrl: '/projects/jota-eleicoes-2026.png',
+    description: 'Visual reporting and comprehensive data infographics analyzing presidential, gubernatorial, and congressional results in the first round of the 2026 Brazilian elections for JOTA.',
+  },
+  {
     id: 'municipal-elections-2024',
     slug: 'municipal-elections-2024',
     title: 'Municipal elections 2024',
@@ -88,6 +99,14 @@ export function getProjectBySlug(slug: string): Project | undefined {
   }
   if (slug === 'pobreza-menstrual' || slug === 'the-impacts-of-period-poverty') {
     return ALL_PROJECTS.find((p) => p.id === 'pobreza-menstrual');
+  }
+  if (
+    slug === '2026-election-results-in-charts' ||
+    slug === 'eleicoes-2026-1o-turno' ||
+    slug === 'os-principais-resultados-do-1o-turno-em-graficos' ||
+    slug === 'elections-2026'
+  ) {
+    return ALL_PROJECTS.find((p) => p.id === 'eleicoes-2026-1o-turno');
   }
   return ALL_PROJECTS.find((p) => p.slug === slug || p.id === slug);
 }

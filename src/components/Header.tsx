@@ -9,7 +9,7 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ onContactClick, onProjectsClick, onHomeClick }) => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-[200] bg-[#dfd8cb]/95 backdrop-blur-md h-16 transition-colors border-b border-[#2e3137]/10">
+    <header className="fixed top-0 left-0 right-0 z-[200] bg-[#e5e0d6]/95 backdrop-blur-md h-16 transition-colors border-b border-[#2e3137]/10">
       <div className="max-w-5xl mx-auto px-6 h-full flex items-center justify-between gap-6">
         {/* Brand Lockup: Logo cropped horizontally in half + text "gabi" */}
         <a
