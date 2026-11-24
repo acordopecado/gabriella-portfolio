@@ -62,7 +62,7 @@ const ForumJotaTextSection: React.FC<TextSectionProps> = ({
     };
   }, []);
 
-  // Desktop solid overlay opacity (up to 95% as requested)
+  // Solid overlay opacity (up to 95% as requested)
   let overlayOpacity = 0;
   if (progress > 0.14) {
     if (progress < 0.32) {
@@ -116,19 +116,15 @@ const ForumJotaTextSection: React.FC<TextSectionProps> = ({
   return (
     <section
       ref={containerRef}
-      className="relative w-full md:h-[185vh]"
+      className="relative w-full h-[185vh]"
       style={{ zIndex }}
     >
-      {/* ========================================================= */}
-      {/* DESKTOP LAYOUT (md: and above) - 100% UNCHANGED           */}
-      {/* Full-bleed image + 95% solid overlay + centered text      */}
-      {/* ========================================================= */}
-      <div className="hidden md:block sticky top-0 h-screen h-[100dvh] w-full overflow-hidden bg-[#e5e0d6]">
-        <div className="absolute inset-0 w-full h-full">
+      <div className="sticky top-0 h-screen h-[100dvh] w-full overflow-hidden bg-[#e5e0d6]">
+        <div className="relative w-full h-full">
           <img
             src={imageSrc}
             alt=""
-            className="w-full h-full object-cover object-center select-none"
+            className="w-full h-full object-contain sm:object-cover object-center select-none"
             loading="eager"
           />
 
@@ -140,43 +136,18 @@ const ForumJotaTextSection: React.FC<TextSectionProps> = ({
 
           {/* Text entering and exiting alone via scroll — aligned to left */}
           <div
-            className="absolute inset-0 flex items-center justify-center px-6 sm:px-12 md:px-20 lg:px-28 pointer-events-none"
+            className="absolute inset-0 flex items-center justify-center px-6 sm:px-10 md:px-20 lg:px-28 pointer-events-none"
             style={{
               opacity: textOpacity,
               transform: `translate3d(0, ${textTranslateY}px, 0)`,
             }}
           >
             <div className="w-full max-w-2xl sm:max-w-3xl md:max-w-4xl text-left">
-              <p className="text-base sm:text-xl md:text-2xl lg:text-[27px] font-normal text-[#2e3137] leading-relaxed md:leading-[1.65] tracking-tight selection:bg-[#244287] selection:text-white">
+              <p className="text-[15px] sm:text-lg md:text-2xl lg:text-[27px] font-normal text-[#2e3137] leading-relaxed md:leading-[1.65] tracking-tight selection:bg-[#244287] selection:text-white">
                 {renderContent()}
               </p>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* ========================================================= */}
-      {/* MOBILE LAYOUT (< md)                                      */}
-      {/* Image in top area whole; text in empty space below image. */}
-      {/* Scrolls naturally: when text exits with scroll, it pushes  */}
-      {/* the image and background up, pulling next image along!     */}
-      {/* ========================================================= */}
-      <div className="md:hidden w-full bg-[#e5e0d6] flex flex-col py-6 sm:py-8">
-        {/* Top area: Image displayed whole, not cropped or covered by text */}
-        <div className="w-full px-4 sm:px-6 flex items-center justify-center">
-          <img
-            src={imageSrc}
-            alt=""
-            className="w-full h-auto max-h-[52vh] object-contain object-center select-none block"
-            loading="eager"
-          />
-        </div>
-
-        {/* Bottom area: Empty space below image with text */}
-        <div className="w-full px-6 sm:px-8 pt-5 pb-2 text-left">
-          <p className="text-[15px] sm:text-base font-normal text-[#2e3137] leading-relaxed tracking-tight selection:bg-[#244287] selection:text-white">
-            {renderContent()}
-          </p>
         </div>
       </div>
     </section>
@@ -184,8 +155,7 @@ const ForumJotaTextSection: React.FC<TextSectionProps> = ({
 };
 
 /**
- * Pure image section with responsive height.
- * When consecutive (isConsecutive=true), mobile spacing is decreased.
+ * Pure image section with sticky scrollytelling height.
  */
 interface ImageSectionProps {
   imageSrc: string;
@@ -196,33 +166,17 @@ interface ImageSectionProps {
 const ForumJotaImageSection: React.FC<ImageSectionProps> = ({
   imageSrc,
   zIndex,
-  isConsecutive = false,
 }) => {
   return (
     <section
-      className={`relative w-full ${
-        isConsecutive
-          ? 'py-2 sm:py-2.5 md:py-0 md:h-[115vh]'
-          : 'py-4 sm:py-6 md:py-0 md:h-[115vh]'
-      }`}
+      className="relative w-full h-[115vh]"
       style={{ zIndex }}
     >
-      {/* DESKTOP LAYOUT (md: and above) - 100% UNCHANGED */}
-      <div className="hidden md:flex w-full overflow-hidden bg-[#e5e0d6] items-center justify-center sticky top-0 h-screen h-[100dvh]">
+      <div className="flex w-full overflow-hidden bg-[#e5e0d6] items-center justify-center sticky top-0 h-screen h-[100dvh]">
         <img
           src={imageSrc}
           alt=""
-          className="select-none w-full h-full object-cover object-center"
-          loading="eager"
-        />
-      </div>
-
-      {/* MOBILE LAYOUT (< md) */}
-      <div className="md:hidden w-full flex items-center justify-center px-4 sm:px-6 bg-[#e5e0d6]">
-        <img
-          src={imageSrc}
-          alt=""
-          className="select-none w-full h-auto max-h-[72vh] object-contain object-center block"
+          className="select-none w-full h-full object-contain sm:object-cover object-center"
           loading="eager"
         />
       </div>
@@ -251,7 +205,7 @@ export const ForumJotaPage: React.FC<ForumJotaPageProps> = ({
   }, [onBack]);
 
   return (
-    <article className="relative w-full bg-[#e5e0d6] text-[#2e3137] selection:bg-[#244287] selection:text-white pt-16 md:pt-0">
+    <article className="relative w-full bg-[#e5e0d6] text-[#2e3137] selection:bg-[#244287] selection:text-white">
       {/* Module 0 & 1: Hero GIF + Text 1 */}
       <ForumJotaTextSection
         imageSrc="/projects/forum-jota/01_hero.gif"

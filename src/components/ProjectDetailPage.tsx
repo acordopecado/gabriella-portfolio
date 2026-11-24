@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { Project, getProjectBySlug } from '../data/projects';
+import { getProjectBySlug } from '../data/projects';
 import { ForumJotaPage } from './ForumJotaPage';
-import { MunicipalElectionsPage } from './MunicipalElectionsPage';
+import { Elections2026Page } from './Elections2026Page';
 import { ColorOfSinPage } from './ColorOfSinPage';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 
@@ -23,9 +23,15 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
   }, [slug]);
 
   // Dedicated scrollytelling clone pages for case studies
-  if (slug === 'forum-jota') {
+  if (
+    slug === '2026-brazilian-general-elections' ||
+    slug === '2026-election-results-in-charts' ||
+    slug === 'eleicoes-2026-1o-turno' ||
+    slug === 'os-principais-resultados-do-1o-turno-em-graficos' ||
+    slug === 'elections-2026'
+  ) {
     return (
-      <ForumJotaPage
+      <Elections2026Page
         onBack={onBack}
         onContactClick={onContactClick}
         onSelectProject={onSelectProject}
@@ -33,9 +39,9 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
     );
   }
 
-  if (slug === 'municipal-elections-2024') {
+  if (slug === 'forum-jota') {
     return (
-      <MunicipalElectionsPage
+      <ForumJotaPage
         onBack={onBack}
         onContactClick={onContactClick}
         onSelectProject={onSelectProject}

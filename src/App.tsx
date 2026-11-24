@@ -103,7 +103,7 @@ export default function App() {
               onContactClick={() => setIsContactOpen(true)}
             />
 
-            {/* 2 Project Sections with internal navigation */}
+            {/* Unified Chronological Projects Section */}
             <ProjectSections onSelectProject={handleSelectProject} />
           </>
         )}
@@ -111,7 +111,11 @@ export default function App() {
 
       {/* Simple Minimalist Footer */}
       {selectedProjectSlug !== 'forum-jota' &&
-        selectedProjectSlug !== 'municipal-elections-2024' &&
+        selectedProjectSlug !== '2026-brazilian-general-elections' &&
+        selectedProjectSlug !== '2026-election-results-in-charts' &&
+        selectedProjectSlug !== 'eleicoes-2026-1o-turno' &&
+        selectedProjectSlug !== 'os-principais-resultados-do-1o-turno-em-graficos' &&
+        selectedProjectSlug !== 'elections-2026' &&
         selectedProjectSlug !== 'the-color-of-sin' &&
         selectedProjectSlug !== 'a-cor-do-pecado' && <SimpleFooter />}
 

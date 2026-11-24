@@ -37,48 +37,62 @@ const ColorOfSinTextSection: React.FC<TextSectionProps> = ({
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      // Only compute scroll progress for desktop scrollytelling
-      if (window.innerWidth < 768) return;
-
-      const el = containerRef.current;
-      if (!el) return;
-
-      const rect = el.getBoundingClientRect();
-      const totalScrollable = el.offsetHeight - window.innerHeight;
-      if (totalScrollable <= 0) return;
-
-      const currentScroll = -rect.top;
-      const rawProgress = currentScroll / totalScrollable;
-      const clamped = Math.min(1, Math.max(0, rawProgress));
-      setProgress(clamped);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const el = containerRef.current;
+          if (el) {
+            const rect = el.getBoundingClientRect();
+            const totalScrollable = rect.height - window.innerHeight;
+            if (totalScrollable > 0) {
+              const currentScroll = -rect.top;
+              const rawProgress = currentScroll / totalScrollable;
+              const clamped = Math.min(1, Math.max(0, rawProgress));
+              setProgress(clamped);
+            }
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
+    window.addEventListener('resize', handleScroll, { passive: true });
     handleScroll();
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleScroll);
+    };
   }, []);
 
-  // 1. Overlay fades in between progress 0.15 and 0.40, reaching 95% opacity (0.95)
-  const bgOpacity = Math.min(0.95, Math.max(0, (progress - 0.15) / 0.25) * 0.95);
+  // 1. Overlay fades in between progress 0.14 and 0.32, reaching 95% opacity (0.95)
+  const bgOpacity = Math.min(0.95, Math.max(0, (progress - 0.14) / 0.18) * 0.95);
 
-  // 2. Text fades in between 0.25 and 0.50, stays solid, then exits alone between 0.82 and 0.98
+  // 2. Text fades in between 0.20 and 0.38, stays solid, then exits alone between 0.58 and 0.78
   const textOpacity =
-    progress < 0.25
+    progress < 0.20
       ? 0
-      : progress < 0.50
-      ? (progress - 0.25) / 0.25
-      : progress > 0.82
-      ? Math.max(0, 1 - (progress - 0.82) / 0.16)
-      : 1;
-
-  // 3. Text entrance slide-up (24px -> 0px) and exit slide-up (0px -> -70px)
-  const textTranslateY =
-    progress < 0.50
-      ? (1 - Math.min(1, Math.max(0, (progress - 0.25) / 0.25))) * 24
-      : progress > 0.82
-      ? -((progress - 0.82) / 0.16) * 70
+      : progress <= 0.38
+      ? (progress - 0.20) / 0.18
+      : progress < 0.58
+      ? 1
+      : progress <= 0.78
+      ? Math.max(0, 1 - (progress - 0.58) / 0.20)
       : 0;
+
+  // 3. Text entrance slide-up (60px -> 0px) and exit slide-up (0px -> -90px)
+  const textTranslateY =
+    progress < 0.20
+      ? 60
+      : progress <= 0.38
+      ? (1 - (progress - 0.20) / 0.18) * 60
+      : progress < 0.58
+      ? 0
+      : progress <= 0.78
+      ? -((progress - 0.58) / 0.20) * 90
+      : -90;
 
   const renderFormattedText = (rawText: string) => {
     if (italicPhrase && rawText.includes(italicPhrase)) {
@@ -115,58 +129,37 @@ const ColorOfSinTextSection: React.FC<TextSectionProps> = ({
   return (
     <section
       ref={containerRef}
-      className="relative w-full h-auto md:h-[150vh]"
+      className="relative w-full h-[185vh]"
       style={{ zIndex }}
     >
-      {/* DESKTOP LAYOUT (md: and above) - SCROLLYTELLING */}
-      <div className="hidden md:flex w-full sticky top-0 h-screen h-[100dvh] overflow-hidden bg-[#e5e0d6] items-center justify-center">
-        {/* Fullscreen background image */}
+      <div className="flex w-full sticky top-0 h-screen h-[100dvh] overflow-hidden bg-[#e5e0d6] items-center justify-center">
+        {/* Background image */}
         <img
           src={imageSrc}
           alt=""
-          className="select-none absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
+          className="select-none absolute inset-0 w-full h-full object-contain sm:object-cover object-center pointer-events-none"
           loading="eager"
         />
 
         {/* Solid site background color overlay at 95% opacity (#e5e0d6) */}
         <div
-          className="absolute inset-0 bg-[#e5e0d6] pointer-events-none transition-opacity duration-300"
+          className="absolute inset-0 bg-[#e5e0d6] pointer-events-none transition-opacity duration-75"
           style={{ opacity: bgOpacity }}
         />
 
         {/* Narrative text block - left aligned */}
         <div
-          className="relative z-10 w-full max-w-2xl sm:max-w-3xl md:max-w-4xl mx-auto px-6 sm:px-12 md:px-20 lg:px-28 pointer-events-none text-left"
+          className="relative z-10 w-full max-w-2xl sm:max-w-3xl md:max-w-4xl mx-auto px-6 sm:px-10 md:px-20 lg:px-28 pointer-events-none text-left"
           style={{
             opacity: textOpacity,
-            transform: `translateY(${textTranslateY}px)`,
+            transform: `translate3d(0, ${textTranslateY}px, 0)`,
           }}
         >
           <div className="w-full text-left">
-            <p className="text-base sm:text-xl md:text-2xl lg:text-[27px] font-normal text-[#2e3137] leading-relaxed md:leading-[1.65] tracking-tight selection:bg-[#244287] selection:text-white">
+            <p className="text-[15px] sm:text-lg md:text-2xl lg:text-[27px] font-normal text-[#2e3137] leading-relaxed md:leading-[1.65] tracking-tight selection:bg-[#244287] selection:text-white">
               {renderFormattedText(text)}
             </p>
           </div>
-        </div>
-      </div>
-
-      {/* MOBILE LAYOUT (< md) - Flow where text pushes previous image and background */}
-      <div className="md:hidden relative w-full bg-[#e5e0d6] px-4 sm:px-6 py-4 flex flex-col items-center">
-        {/* Mobile image: fully visible without cropping */}
-        <div className="w-full flex items-center justify-center">
-          <img
-            src={imageSrc}
-            alt=""
-            className="select-none w-full h-auto max-h-[72vh] object-contain object-center block"
-            loading="eager"
-          />
-        </div>
-
-        {/* Mobile text placed in empty space below the image */}
-        <div className="mt-4 sm:mt-5 w-full max-w-xl mx-auto text-left">
-          <p className="text-sm sm:text-base text-[#2e3137] font-normal leading-relaxed text-left">
-            {renderFormattedText(text)}
-          </p>
         </div>
       </div>
     </section>
@@ -174,8 +167,7 @@ const ColorOfSinTextSection: React.FC<TextSectionProps> = ({
 };
 
 /**
- * Pure image section with responsive height.
- * When consecutive (isConsecutive=true), mobile spacing is decreased.
+ * Pure image section with sticky scrollytelling height.
  */
 interface ImageSectionProps {
   imageSrc: string;
@@ -186,33 +178,17 @@ interface ImageSectionProps {
 const ColorOfSinImageSection: React.FC<ImageSectionProps> = ({
   imageSrc,
   zIndex,
-  isConsecutive = false,
 }) => {
   return (
     <section
-      className={`relative w-full ${
-        isConsecutive
-          ? 'py-2 sm:py-2.5 md:py-0 md:h-[115vh]'
-          : 'py-4 sm:py-6 md:py-0 md:h-[115vh]'
-      }`}
+      className="relative w-full h-[115vh]"
       style={{ zIndex }}
     >
-      {/* DESKTOP LAYOUT (md: and above) - 100% UNCHANGED */}
-      <div className="hidden md:flex w-full overflow-hidden bg-[#e5e0d6] items-center justify-center sticky top-0 h-screen h-[100dvh]">
+      <div className="flex w-full overflow-hidden bg-[#e5e0d6] items-center justify-center sticky top-0 h-screen h-[100dvh]">
         <img
           src={imageSrc}
           alt=""
-          className="select-none w-full h-full object-cover object-center"
-          loading="eager"
-        />
-      </div>
-
-      {/* MOBILE LAYOUT (< md) */}
-      <div className="md:hidden w-full flex items-center justify-center px-4 sm:px-6 bg-[#e5e0d6]">
-        <img
-          src={imageSrc}
-          alt=""
-          className="select-none w-full h-auto max-h-[72vh] object-contain object-center block"
+          className="select-none w-full h-full object-contain sm:object-cover object-center"
           loading="eager"
         />
       </div>
@@ -241,7 +217,7 @@ export const ColorOfSinPage: React.FC<ColorOfSinPageProps> = ({
   }, [onBack]);
 
   return (
-    <article className="relative w-full bg-[#e5e0d6] text-[#2e3137] selection:bg-[#244287] selection:text-white pt-16 md:pt-0">
+    <article className="relative w-full bg-[#e5e0d6] text-[#2e3137] selection:bg-[#244287] selection:text-white">
       {/* ─────────────────────────────────────────────────────────────
           SECTION 1: Cover Image + Project Introduction Text
          ───────────────────────────────────────────────────────────── */}
